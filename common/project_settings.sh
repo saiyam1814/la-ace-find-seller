@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # The name of the project to deploy services into.
-PROJECT_NAME="playground-s-11-7afd3b"
+PROJECT_NAME="playground-s-11-b82c2f"
 
 # Which default region should regional services use?
 PROJECT_REGION="us-central1"
@@ -21,14 +21,14 @@ ORGANIZATION="find-seller"
 
 # This is the Storage bucket used for public assets. 
 # The entire bucket is public by default
-PUBLIC_ASSETS="fssaiyamn-public-bucket"
+PUBLIC_ASSETS="fssaiyam-public-bucket"
 
 # This is the Storage bucket used for private assets. 
 # The entire bucket is private by default
-PRIVATE_ASSETS="fssaiyamn-private-bucket"
+PRIVATE_ASSETS="fssaiyam-private-bucket"
 
 # The name of the Pubsub topic to create / use
-PUB_SUB_TOPIC="fssaiyamm-items"
+PUB_SUB_TOPIC="fssaiyam-items"
 
 # The name of the custom network for the product and ads services
 SERVICES_NETWORK="fssaiyam-app-network"
